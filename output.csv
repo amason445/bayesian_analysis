@@ -1,0 +1,6 @@
+User Access Group,Not in Executives Group,In Executives Group,Total,Prior Probabilities,Prosterior Probabilities
+Executives,0,4,4,0.17391304347826086,0.3636363636363636
+Finance,4,2,6,0.2608695652173913,0.1818181818181818
+HR,3,3,6,0.2608695652173913,0.2727272727272727
+Sales,5,2,7,0.30434782608695654,0.1818181818181818
+Total Users,12,11,23,1.0,1.0

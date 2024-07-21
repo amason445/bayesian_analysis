@@ -1,0 +1,14 @@
+﻿Name,Title,User Access Group
+Kyle Sullivan,CEO,"[Executives, HR, Sales, Finance]"
+Cindy Watson,CFO,"[Executives, HR]"
+Bill Kern,CAO,"[Executives, HR, Finance]"
+Sal Jackson,CMO,"[Executives, Sales]"
+Joseph Gordon,Sales Associate,[Sales]
+Johnny Simms,Sales Associate,[Sales]
+Liz Wilders,Sales Associate,[Sales]
+Sally Jenson,Human Resource Agent,"[HR, Sales, Finance]"
+Simon Bars,Human Resource Agent,[HR]
+James Simon,Human Resource Agent,[HR]
+Tyra Barnes,Accountant,"[Finance, Sales]"
+Gordon Brown,Accountant,[Finance]
+Tom Tao,Accountant,[Finance]
