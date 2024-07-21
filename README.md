@@ -6,7 +6,7 @@ A friend mentioned he was performing Bayesian Analysis on user access groups at 
 
 ![alt_text](https://github.com/amason445/bayesian_analysis/blob/main/UserAccessList.png)
 
-Then, given this raw data I calculated prior probabilities and posterior probabilities using with the below results.
+After normalizing this data, I calculated prior and posterior probabilities using Bayes' Formula with the below results.
 
 ![!alt_text](https://github.com/amason445/bayesian_analysis/blob/main/output.png)
 
