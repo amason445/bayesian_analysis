@@ -17,6 +17,7 @@ aggfunc= 'size',
 fill_value=0
 )
 
+#calculate prior, posterior and input probabilities
 pivoted_df.columns = ['Not in Executives Group', 'In Executives Group']
 pivoted_df.loc['Total Users'] = pivoted_df.sum()
 pivoted_df['Total'] = pivoted_df.sum(axis=1)
@@ -29,6 +30,7 @@ pivoted_df['Probability of Group Membership'] = pivoted_df['Total'] / pivoted_df
 
 pivoted_df['Prosterior Probabilities'] = (pivoted_df['Probability of Executive Membership Given Group Membership']  * pivoted_df['Probability of Group Membership']) / pr_executives
 
+#drop unnecessary columns
 pivoted_df = pivoted_df.drop(columns=['Probability of Executive Membership Given Group Membership', 'Probability of Group Membership'])
 
 print(pr_executives)
