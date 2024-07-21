@@ -28,7 +28,7 @@ pr_executives = pivoted_df.loc['Total Users', 'In Executives Group'] / pivoted_d
 pivoted_df['Probability of Executive Membership Given Group Membership'] = pivoted_df['In Executives Group'] / pivoted_df['Total']
 pivoted_df['Probability of Group Membership'] = pivoted_df['Total'] / pivoted_df.loc['Total Users', 'Total']
 
-pivoted_df['Prosterior Probabilities'] = (pivoted_df['Probability of Executive Membership Given Group Membership']  * pivoted_df['Probability of Group Membership']) / pr_executives
+pivoted_df['Posterior Probabilities'] = (pivoted_df['Probability of Executive Membership Given Group Membership']  * pivoted_df['Probability of Group Membership']) / pr_executives
 
 #drop unnecessary columns
 pivoted_df = pivoted_df.drop(columns=['Probability of Executive Membership Given Group Membership', 'Probability of Group Membership'])
