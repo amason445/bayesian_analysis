@@ -6,7 +6,7 @@ A friend mentioned he was performing Bayesian Analysis on user access groups at 
 
 ![alt_text](https://github.com/amason445/bayesian_analysis/blob/main/UserAccessList.png)
 
-After normalizing this data, I calculated prior and posterior probabilities using Bayes' Formula with the below results:
+After normalizing this data, I calculated prior and posterior probabilities using Bayes' Formula with the below results. An example interpretation would read that a user has an 18% chance of being a member of the sales access group given that they are a member of the executive group.
 
 ![!alt_text](https://github.com/amason445/bayesian_analysis/blob/main/output.png)
 
