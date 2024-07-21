@@ -6,8 +6,8 @@ A friend mentioned he was performing Bayesian Analysis on user groups at his job
 
 Then, given this raw data I decided to calculate prior probabilities and posterior probabilities using Bayes' Formula with the below results.
 
-##References
--[Bayes' Formula](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+## References
+- [Bayes' Formula](https://en.wikipedia.org/wiki/Bayes%27_theorem)
 
 
  
